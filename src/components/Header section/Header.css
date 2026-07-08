@@ -1,0 +1,49 @@
+.header {
+  width: 100%;
+  padding: 10px 0;
+  background: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 60px;
+  align-items: center;
+
+}
+
+.nav {
+  display: flex;
+  gap: 55px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+
+}
+
+.nav a {
+  color: rgb(26, 24, 24);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: rgba(2, 156, 207);
+  color: white;
+  padding: 16px 34px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+
+}
+
+.btn:hover {
+  background: #da892d;
+}
+
+
