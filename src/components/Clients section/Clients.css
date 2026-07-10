@@ -1,0 +1,52 @@
+.clients {
+  padding: 110px 20px;
+  background: #fbf2f2;
+}
+
+.client-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.clients h2 {
+  font-size: 30px;
+  color: #23253b;
+  margin-bottom: 60px;
+  line-height: 1.2;
+}
+
+.banks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.banks span {
+  font-size: 40px;
+  font-weight: bold;
+  color: #a6a6a6;
+  filter: blur(7px);
+  opacity: 55px;
+
+}
+
+@media (max-width: 768px) {
+  .clients {
+    padding: 70px 20px;
+  }
+
+  .clients h2 {
+    font-size: 34px;
+  }
+
+  .banks {
+    gap: 25px
+  }
+
+  .banks span {
+    font-size: 16px;
+  }
+}

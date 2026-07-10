@@ -53,13 +53,20 @@
   font-size: 17px;
   font-weight: 700;
   padding: 18px 42px;
+
 }
 
 .hero-image {
   width: 100%;
-  max-width: 950px;
+  max-width: 850px;
   display: block;
   margin: 60px auto 0;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 20px;
+
+
+
 }
 
 
