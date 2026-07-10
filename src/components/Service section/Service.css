@@ -1,0 +1,46 @@
+.services {
+  padding: 120px 0;
+  background: #fff;
+}
+
+.service-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.service-title {
+  color: #2d2d2d;
+  margin-bottom: 90px;
+
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.service-card img {
+  width: 42px;
+  margin-bottom: 20px;
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  color: #2d2d2d;
+  line-height: 1.8;
+  margin-bottom: 24px;
+}
+
+.service-card p {
+  color: #6b7280;
+  line-height: 1.8;
+  margin-bottom: 24px;
+}
+
+.service-card a {
+  color: #2d2d2d;
+  text-decoration: underline;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
