@@ -1,0 +1,122 @@
+.connect {
+  width: 100%;
+  padding: 100px 20px;
+  background: #fff;
+}
+
+.connect-container {
+  max-width: 1200px;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.connect-content {
+  flex: 1;
+
+}
+
+.connect-content h2 {
+  font-size: 40px;
+  line-height: 1.12;
+  color: #1b1b1b;
+  margin: 30px 0;
+  max-width: 520px;
+}
+
+.connect-content p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.8;
+  margin: 30px 0;
+
+}
+
+.connect-btn {
+  padding: 18px 40px;
+  background: #06B6F4;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.connect-btn:hover {
+  background: #0891b2;
+  transform: translateY(-3px);
+}
+
+/* Tablet */
+
+@media(max-width:992px) {
+
+  .connect-container {
+    gap: 40px;
+  }
+
+  .connect-content h2 {
+    font-size: 40px;
+  }
+
+}
+
+/* Mobile */
+
+@media(max-width:768px) {
+
+  .connect {
+    padding: 70px 20px;
+  }
+
+  .connect-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .connect-image {
+    order: 1;
+  }
+
+  .connect-content {
+    order: 2;
+  }
+
+  .connect-content h2 {
+    font-size: 32px;
+  }
+
+  .connect-content p {
+    font-size: 16px;
+  }
+
+  .connect-btn {
+    width: 100%;
+  }
+
+}
+
+/* Small phones */
+
+@media(max-width:480px) {
+
+  .connect-content h2 {
+    font-size: 28px;
+  }
+
+  .connect-content p {
+    font-size: 15px;
+  }
+
+}
