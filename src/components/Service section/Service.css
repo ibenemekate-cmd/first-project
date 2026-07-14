@@ -18,33 +18,78 @@
 .service-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+  align-items: stretch;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-right: 2rem;
+
 }
 
 .service-card img {
-  width: 42px;
-  margin-bottom: 20px;
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin: 0 0 20px 0;
+  align-self: flex-start;
+
 }
 
 .service-card h3 {
   font-size: 1.5rem;
   color: #2d2d2d;
   line-height: 1.8;
-  margin-bottom: 24px;
+  margin-bottom: 14px;
 }
 
 .service-card p {
   color: #6b7280;
-  line-height: 1.8;
-  margin-bottom: 24px;
+  line-height: 1.7;
+  margin: 0;
+  max-width: 280px;
+  flex-grow: 1;
+
 }
 
 .service-card a {
   color: #2d2d2d;
   text-decoration: underline;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-top: auto;
 }
 
 .service-card a:hover {
   color: #0047ff;
+}
+
+@media (max-width: 992px) {
+  .service-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+
+  .service-card p {
+    max-width: 100%;
+  }
+}
+
+@media (max-width) {
+  .service-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .service-card {
+    padding-right: 0;
+    width: 100%;
+  }
+
+  .service-card p {
+    max-width: 100%;
+  }
 }
