@@ -1,14 +1,17 @@
 .security {
   width: 100%;
-  padding: 50px 20px;
+  padding: 90px 0;
   background: rgb(229, 231, 235);
 }
 
 .security-container {
   max-width: 1200px;
   margin: auto;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 0 60px;
+  gap: 80px;
 
 }
 
@@ -51,13 +54,68 @@
 
 .security-image {
   display: flex;
-  flex: 1;
   justify-content: flex-end;
 }
 
 .security-image img {
   width: 100%;
-  max-width: 460px;
+  max-width: 520px;
   display: block;
-  gap: 40px;
+}
+
+@media (max-width : 992px) {
+  .security-container {
+    padding: 0 30px;
+    gap: 40px;
+  }
+
+  .security-header h2 {
+    font-size: 42px;
+  }
+
+  .security-header p {
+    font-size: 18px;
+  }
+
+  .security-btn {
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width:768px) {
+  .security-container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+    padding: 0 28px;
+  }
+
+  .security-image {
+    order: 2;
+    justify-content: center;
+  }
+
+  .security-image img {
+    max-width: 340px;
+
+  }
+
+  .security-header h2 {
+    font-size: 46px;
+    line-height: 1.2;
+  }
+
+  .security-header p {
+    font-family: 16px;
+    line-height: 1.7;
+    margin: 30px 0;
+  }
+
+  .security-btn {
+    width: 100%;
+    padding: 18px 0;
+    font-size: 20px;
+  }
+
 }
