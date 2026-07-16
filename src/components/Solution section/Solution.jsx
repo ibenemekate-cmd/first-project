@@ -19,7 +19,10 @@ const Solution = () =>{
            </div>
 
            <div className="solution-image">
-            <img src="./Prototype.gif" />
+            <div className="phone">
+               <img src="/Prototype.gif" alt="prototype" className="phone-screen" />
+                 <img src="/phone.png" alt="phone frame" className="phone-frame" />
+            </div>
            </div>
       </div>
 
