@@ -13,8 +13,6 @@ const Footer = () => {
   return (
       <footer className="footer">
         <div className="footer-container">
-          
-          <div className="footer-top">
 
           <div className="footer-logo">
             <img src="/logo.png" className="footer-logo"/>
@@ -56,9 +54,10 @@ const Footer = () => {
               <a href="#">Why Verifrica?</a>
             </div>
             </div>
-          </div>
+          
 
           <div className="footer-bottom">
+            <div className="footer-bottom-left">
             <p>© Reef Financial Solutions Ltd</p>
 
             <div className="social-icon">
@@ -68,6 +67,7 @@ const Footer = () => {
             <a href="#"><FaLinkedinIn /></a>
 
             </div>
+              </div>
               </div>
 
 
