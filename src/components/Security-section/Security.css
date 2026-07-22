@@ -1,17 +1,21 @@
 .security {
   width: 100%;
-  padding: 90px 0;
+  height: auto;
+
   background: rgb(229, 231, 235);
 }
 
 .security-container {
   max-width: 1200px;
+
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   padding: 0 60px;
   gap: 80px;
+
+
 
 }
 
@@ -53,13 +57,17 @@
 }
 
 .security-image {
+  flex: 1;
+  height: 100%;
   display: flex;
   justify-content: flex-end;
+  align-items: stretch;
 }
 
 .security-image img {
-  width: 100%;
-  max-width: 520px;
+  width: 500px;
+  height: 740px;
+  object-fit: cover;
   display: block;
 }
 
