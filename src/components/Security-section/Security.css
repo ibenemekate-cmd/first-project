@@ -104,13 +104,9 @@
     justify-content: center;
   }
 
-  .security-image img {
-    max-width: 340px;
-
-  }
 
   .security-header h2 {
-    font-size: 46px;
+    font-size: 30px;
     line-height: 1.2;
   }
 
